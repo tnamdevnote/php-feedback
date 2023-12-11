@@ -1,4 +1,4 @@
-<?php include 'config/database.php'; ?>
+<?php require_once 'config/database.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,7 +17,9 @@
   <body>
     <nav class="navbar navbar-expand-sm navbar-light bg-light mb-4">
       <div class="container">
-        <a class="navbar-brand" href="#">Traversy Media</a>
+        <a class="navbar-brand" href="index.php">
+          tnamdevnote
+        </a>
         <button
           class="navbar-toggler"
           type="button"
